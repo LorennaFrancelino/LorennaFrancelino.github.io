@@ -14,9 +14,36 @@
                 margin-left: 10%;
             }            
             table, tr, th, td {
-            border: 1px solid black;
-            padding: 8px;
-        }
-        table {
-            margin-bottom: 50px;
-        }
+                border: 1px solid black;
+                padding: 8px;
+            }
+            table {
+                margin-bottom: 50px;
+            }
+            body{
+                background-color: bisque;
+                color: darkblue;
+                font-family:sans-serif;
+                
+            }
+            tr:nth-child(even){
+                background-color: burlywood;
+                color: blueviolet;
+            }
+            span{
+                font-family: Arial;
+                font-size: 24px;
+            }
+            p:first-child {
+                color:crimson;
+            }
+            li:nth-child(2) {
+                background-color: aquamarine;
+            }
+            a:hover { 
+                text-decoration:none;
+            }
+            li{
+                text-decoration:none;
+            }
+            
