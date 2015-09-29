@@ -1,0 +1,38 @@
+body {
+    font-size: 16px;
+    line-height: 1.45;
+    font-family: "Georgia", serif;
+    background-color:#f8f3b0;
+    align-content: center;
+    width: 800px;
+    margin: 0 auto;
+} 
+
+p {
+    margin-bottom: 1.3em;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.par
+{
+    padding:10px;
+    margin: 10px auto;
+    background-color: #59a2db;
+}
+
+h1,h2,h3
+{
+    color:693f52;
+    text-align: left;
+}
+
+a{
+    color:black;
+    text-decoration: underline;
+}
+
+a:hover
+{
+    background-color:#f8f3b0;
+}
