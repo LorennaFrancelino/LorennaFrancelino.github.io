@@ -1,0 +1,52 @@
+body {
+    font-size: 10px;
+    margin: 0 auto;
+    width: 950px;
+    float: left;
+    padding: 10px;
+}
+
+table, td, th, tr
+{
+    border-collapse: collapse; 
+    font-size: 14px;
+}
+
+table
+{
+    border: 1px solid black;
+    width: 400px;
+}
+
+tr
+{
+  border: 1px solid black;
+}
+
+td
+{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.bacon-info {
+}
+
+.bacon-answer {
+    font-family: "Times New Roman";
+}
+
+h2
+{
+    font-size: 22px;
+}
+
+p
+{
+    font-size: 14px;
+}
+
+li
+{
+    font-size: 14px;
+}
