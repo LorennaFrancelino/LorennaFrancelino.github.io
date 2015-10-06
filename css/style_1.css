@@ -2,9 +2,6 @@ body {
     background: #aeaeae;
     color: #000000;
     font-family:monospace;
-    
-    border: solid 5px black;
-    padding-bottom: 10px;
 }
 
 div
@@ -14,8 +11,11 @@ div
 }
 
 .main-content {
-    width: 1000px;
+    width: 50%;
     margin: 0 auto;
+    
+    border: solid 5px black;
+    padding-bottom: 10px;
 }
 
 .u {
