@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        
+<!-- first attempt - It DID NOT work like this, and I don't know why.
+        <script>
+            var numOfChildreen = 3;
+            var partnersName = 'Mistery';
+            var geoLocation = 'Paris';
+            var jobTitle = 'Project Manager';
+                    
+            console.log('You will be a ' + jobTitle + ' in ' + geoLocation + ', and married to ' + partnersName + ' with ' + numOfChildreen + ' kids.');
+        </script>
+-->
+        <!-- Second Attempt -->
+        <p id="demo">A paragraph</p>
+        <script>
+            var numOfChildreen = 3;
+            var partnersName = 'Mistery';
+            var geoLocation = 'Paris';
+            var jobTitle = 'Project Manager';
+                    
+            document.getElementById("demo").innerHTML = 'You will be a ' + jobTitle + ' in ' + geoLocation + ', and married to ' + partnersName + ' with ' + numOfChildreen + ' kids.';
+        </script>
+    </body>
+</html>
