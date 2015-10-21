@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+<!-- first attempt - It DID NOT work like this, and I don't know why.
+        <script>
+            var currentYear = 2015;
+            var birthYear = 1994;
+            var age1 = currentYear - birthYear;
+            var age2 = age1 + 1;
+            console.log('They are either ' + age 1 + 'or ' + age2 + '.');
+        </script>
+-->
+        <!-- Second Attempt - It is not working too-->
+        <p id="demo">A paragraph</p>
+        <script>
+            var currentYear = 2015;
+            var birthYear = 1994;
+            var age1 = currentYear - birthYear;
+            var age2 = age1 - 1;
+            
+            document.getElementById("demo").innerHTML = 'They are either ' + age 1 + 'or ' + age2 + '.';
+        </script>
+    </body>
+</html>
