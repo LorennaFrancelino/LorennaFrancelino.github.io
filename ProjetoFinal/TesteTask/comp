@@ -1,0 +1,5 @@
+ROOT=/home/gt-tei/workspacenew/nesCix/src
+OPT1="-I$ROOT/interfaces -I$ROOT/system -I$ROOT/types"
+OPT2="-fnesc-scheduler=TinySchedulerC,TinySchedulerC.TaskBasic,TaskBasic,TaskBasic,runTask,postTask -fnesc-cfile=app.c" 
+
+nescc $OPT1 $OPT2 $1.nc -o$1
